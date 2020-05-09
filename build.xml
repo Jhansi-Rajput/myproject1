@@ -9,7 +9,7 @@
 	
 	<target name="init">
 		<mkdir dir="build/classes"/>
-		<mkdir dir="jhansi" />
+		<mkdir dir="janu" />
 	</target>
 	
 	<target name="compile" depends="init" >
@@ -19,7 +19,7 @@
 	</target>
 	
 	<target name="war" depends="compile">
-		<war destfile="jhansi/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
+		<war destfile="janu/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent"/>
 			<lib dir="WebContent/WEB-INF/lib"/>
 			<classes dir="build/classes"/>
@@ -27,7 +27,7 @@
 	</target>
 	
 	<target name="clean">
-		<delete dir="jhansi" />
+		<delete dir="janu" />
 		<delete dir="build" />
 	</target>
 	
