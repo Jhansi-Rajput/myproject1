@@ -175,7 +175,6 @@
 
 Hello, 
 this is for testing:-)
-	END OF TERMS AND CONDITIONS
-testing Automation
 
+	END OF TERMS AND CONDITIONS
 testing Automation
